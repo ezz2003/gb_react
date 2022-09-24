@@ -1,0 +1,93 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  text-align: center;
+  
+  
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.wrap{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  /* border: 1px solid slateblue; */
+  align-self: center;
+}
+
+.wrap-input-message{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 550px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.par{
+  width: 350px;
+  font-size: medium;
+  font-weight: 700;
+  color: blue;
+}
+
+h3{
+  color: rgb(6, 11, 148);
+  line-height: 5px;
+}
+
+.forRobot{
+  font-size: 12px;
+  color: rgb(244, 11, 15);
+}
+.forOthers{
+  color: green;
+  font-size: 14px;
+}
+
+.input-form{
+  margin-top: 30px;
+  /* border: 1px solid #282c34; */
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+   box-shadow: 1px 1px 11px -11px #000000
+}
+
+
+
